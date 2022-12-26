@@ -3,7 +3,7 @@ development kit for single page webapplications with builtin restful server comm
 
 the kernel client part is implemented in javascript located in templates/static/basis
 
-the kernel server part to demonstrate communication over restful interfaces in implemented
+the kernel server part to demonstrate communication over restful interfaces is implemented
 in python3 named appentry.py located in the root directory.
 
 a sample control as 3D moveable heatmap is implemented as sample in templates/static/intern.
