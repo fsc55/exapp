@@ -6,7 +6,7 @@ the kernel client part is implemented in javascript located in templates/static/
 the kernel server part to demonstrate communication over restful interfaces in implemented
 in python3 named appentry.py located in the root directory.
 
-a sample control as 3D moveable heatmap in implemented as sample in templates/static/intern.
+a sample control as 3D moveable heatmap is implemented as sample in templates/static/intern.
 it is implemented based on canvas, but every other javascript compatible technologie can be used
 to implement controls
 
