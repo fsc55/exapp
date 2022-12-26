@@ -18,3 +18,6 @@ if the server is used without a webserver like apache or nginx, please set a lin
 from the root directory pointing to templates/static.
 
 then the server can be started directly via: python3 appentry.py
+
+
+there are some demo pictures in the wiki section.
