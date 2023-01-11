@@ -1,0 +1,99 @@
+.htContextMenu table tbody tr td
+{
+    background: #282438 !important;
+    color: white;
+    border-width: 0;
+    padding: 4px 6px 0 6px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "helvetica";
+    font-size: 10px;
+}
+
+.handsontable td
+{
+    font-size:     14px;
+    font-family:  "courier";
+    color:         lightgrey;
+    border-top:    0.1px solid #606065 !important;
+    border-bottom: 0.1px solid #101015 !important;
+    border-left:   0.1px solid #606065 !important;
+    border-right:  0.1px solid #101015 !important;
+    background-color: #002542 !important;
+}
+
+.handsontable th
+{
+    padding-left: 5px;
+    font-size: 14px;
+    font-family:  "courier bold";
+    color: #00A0C0;
+    border-top: 0.1px solid #808085 !important;
+    border-bottom: 0.1px solid #202025 !important;
+    border-left: 0.1px solid #808085 !important;
+    border-right: 0.1px solid #202025 !important;
+    background-color: #505060;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.ht_clone_top_left_corner th {
+  background-color: #505060;
+}
+
+ul.fancytree-container {
+  #background-color: #505060;
+  background-image: url("./background.jpg");
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-top:    4px;
+  margin-left:   4px;
+  margin-right:  4px;
+  width: calc(100% - 16px);
+  max-height: 97%;
+  overflow: auto;
+  outline: 0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+ul.fancytree-container >li >.fancytree-node span.fancytree-title 
+{
+  font-family: "arial";
+  font-size: 1.0em;
+  color: white;
+  text-align: center; 
+  width: calc(100% - 8px);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 0px;
+  border: 1px solid #707070;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.1);
+  xbackground-image: radial-gradient(#404045,#303035);
+}
+
+ul.fancytree-container >li >.fancytree-node span.fancytree-expander {
+  display: none;
+}
+
+ul.fancytree-container >li >ul {
+  font-family: "consolas","monaco";
+  font-size: 1.0em;
+  color: white;
+  padding-left: 0px;
+}
+
+
+
+

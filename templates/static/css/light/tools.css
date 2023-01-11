@@ -1,0 +1,79 @@
+.htContextMenu table tbody tr td
+{
+    background: #EEEEF5 !important;
+    color: midnightblue;
+    border-width: 0;
+    padding: 4px 6px 0 6px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "helvetica";
+    font-size: 1.0em;
+  }
+
+.handsontable td
+{
+    font-size: 14px;
+    font-family: "courier";
+    color: #222288;
+    background-color: #FFFFFF;
+}
+
+.handsontable th
+{
+    font-size: 14px;
+    font-family: "courier bold";
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: -moz-none;
+   -o-user-select: none;
+   user-select: none;
+}
+
+ul.fancytree-container {
+  background-color: #F0F0F0;
+  border: 1px solid #B0B0B0;
+  border-radius: 6px;
+  margin-top:    4px;
+  margin-left:   4px;
+  margin-right:  4px;
+  width: calc(100% - 16px);
+  max-height: 97%;
+  overflow: auto;
+  outline: 0;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+ul.fancytree-container >li >.fancytree-node span.fancytree-title {
+  font-family: "arial";
+  font-size: 1.0em;
+  color: #302570;
+  text-align: center; 
+  width: calc(100% - 8px);
+  padding: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin:  0px;
+  background-color: #D2D2DA;
+  border: 1px solid #C0C0C2;
+  border-radius: 2px;
+  background-image: radial-gradient(#F2F2FA,#D2D2DA);
+}
+
+ul.fancytree-container >li >.fancytree-node .fancytree-expander {
+  display: none;
+}
+
+ul.fancytree-container >li >ul {
+  font-family: "consolas","monaco";
+  font-size: 1.0em;
+  color: #302570;
+  padding-left: 0px;
+}

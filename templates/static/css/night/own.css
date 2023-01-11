@@ -1,0 +1,211 @@
+
+/* firefox */
+* {
+    scrollbar-color: #005070 #101010;
+    scrollbar-width: thin;
+}
+
+/* chrome */
+*::-webkit-scrollbar 
+{
+    width: 10px;
+    height:10px;
+    background: #101010;
+}
+
+/* chrome sec*/
+*::-webkit-scrollbar-track 
+{
+    width: 10px;
+    background: #101010;
+}
+
+/* chrome */
+*::-webkit-scrollbar-thumb 
+{
+    background-color: #005070;
+    border: 1px solid #003050;
+}
+
+/* chrome */
+*::-webkit-scrollbar-corner
+{
+    background: #505060;
+}
+
+#popupsid {
+    scrollbar-color: #005070 #101010;
+    scrollbar-width: thin;
+    border: 2px solid  lightslategrey;
+    border-radius: 5px;
+}
+
+body
+{
+  background-color: #282438;
+  overflow: hidden;
+  scrollbar-width: 12px;
+  scrollbar-color: #005070 #121022;
+}
+
+.top {
+    width:  calc(100vw - 16px);
+    height: calc(100vh - 16px);
+    color:#282438;
+    #background-color:#555565;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    border-radius: 6px;
+    user-select: none;
+}
+
+.top0 {
+    width:  calc(100vw - 16px);
+    height: calc(100vh - 16px);
+    color:#282438;
+    background-color:#282438;
+    border-radius: 6px;
+    user-select: none;
+}
+
+.vdiv {
+    width: 100%;
+    height: calc(50% - 3px);
+    #background-color: #555565;
+    background-image: url("./background.jpg");
+    background-size:cover;
+    border-radius: 6px;
+}
+
+.hdiv {
+    float: left;
+    width: calc(50% - 3px);
+    height: 100%;
+    #background-color: #555565;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.v0div {
+    width: 100%;
+    height: calc(50% - 3px);
+    background-color: #282438;
+    border-radius: 6px;
+}
+
+.h0div {
+    float: left;
+    width: calc(50% - 3px);
+    height: 100%;
+    background-color: #282438;
+    border-radius: 6px;
+}
+
+.vsep {
+    width:  100%;
+    height: 6px;
+    background-color: #282438;
+}
+
+.hsep {
+    float:  left;
+    width:  6px;
+    height: 100%;
+    background-color: #282438;
+}
+
+.leaf {
+    width:  100%;
+    height: 100%;
+    overflow: hidden;
+   -ms-overflow-style: none;
+    #background-color: #404050;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    border-radius: 6px;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-family: "consolas","monaco";
+    font-size: 1.0em;
+    border: 1px solid gray;
+}
+
+button {
+    background-color: #007090;
+    color: white;
+    border:    1px solid gray;
+    border-radius: 3px;
+    font-family: "consolas","monaco";
+    font-size: 1.0em;
+    padding-right: 9px
+}
+
+button:hover {
+    background-color: #004070;
+}
+
+button:active {
+  background-color: #007090;
+}
+
+select {
+    background-color: #005070;
+    color: white;
+    font-family: "consolas","monaco";
+    font-size: 1.0em;
+    border: 1px solid gray;
+    width: 134px;
+}
+
+option:hover {
+  background-color: #004070; 
+} 
+
+textarea {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 1.0em;
+    color: #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 150px;
+    width: 100%;
+}
+
+fieldset{
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+#prjkeywords {
+    height: 60px;
+}
+
+.prjimage {
+  width:  120px !important;
+  height: 100px !important;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin-left: 230px;
+  margin-top: -20px;
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
